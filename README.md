@@ -127,6 +127,13 @@ http://<ec2-instance-public-ip>:8080/restart
 
 The docker agent configuration is now successful.
 
+### A simple jenkins my first pipeline script to verify if the docker slave configuration is working as expected.
+
+# Multi Stage Multi Agent
+
+Set up a multi stage jenkins pipeline where each stage is run on a unique agent. This is a very useful approach when you have multi language application
+or application that has conflicting dependencies.
+
 
 
 
